@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Story Generator</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/3d391fd37c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h1>Silly Stories Generator</h1>
+    <div>
+        <label for="customname">Enter custom name:</label>
+        <input id="customname" type="text" placeholder="" />
+    </div>
+    <div>
+        <label for="us">US</label
+        ><input id="us" type="radio" name="ukus" value="us" checked />
+        <label for="uk">UK</label
+        ><input id="uk" type="radio" name="ukus" value="uk" />
+    </div>
+    <div>
+        <button class="randomize">Generate random story</button>
+    </div>
+    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+    <p class="story"></p>
+
+    <div class="note">
+        <span class="close"><i class="fa-solid fa-circle-xmark"></i></span>
+        <h2>NOTE:</h2>
+        <p>To generate a story, you have to "ENTER A NAME" which you want the character in your story to bear.</p>
+    </div>
+    <footer>
+        <p class="night">Switch To Night Mode</p>
+        <p class="day">Revert Back To Daylight Mode</p>
+    </footer>
+</body>
+</html>
